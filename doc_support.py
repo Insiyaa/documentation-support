@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen
-from goto import goto
 
 
 
@@ -38,8 +37,7 @@ def printDocdata(nav, nav_url, index_items):
 
 
 def main():
-    print("Instructions:")
-    print("q: quit\nl: documentation menu\nc: change python version")
+    
     while(1):
         print("1. Python 3.6\n2. Python 2.7")
         print("Enter your choice:")
